@@ -4,7 +4,7 @@
 #include <Adafruit_GFX.h>
 #include <Max72xxPanel.h>
 
-int pinCS = 10; // Attach CS to this pin, DIN to MOSI and CLK to SCK
+int pinCS = 10; // CS подключаем к этому пину, DIN к 11 и CLK к 13
 int numberOfHorizontalDisplays = 1;
 int numberOfVerticalDisplays = 4;
 
